@@ -11,23 +11,24 @@ public class Ev3ultra {
 		// TODO 自動生成されたメソッド・スタブ
 //		getDistanceMode a;
 		EV3UltrasonicSensor us1 = new EV3UltrasonicSensor(SensorPort.S4);
-		
+
 		Motor.B.setSpeed(100);// 2 RPM
         Motor.C.setSpeed(100);
-		
+        //a;f
+
 		us1.enable();
 		us1.getDistanceMode();
-		
-		
-		
-		
+
+
+
+
 
 		us1.close();
-	
+
 	}
 
 
-	
-	
+
+
 }
 
